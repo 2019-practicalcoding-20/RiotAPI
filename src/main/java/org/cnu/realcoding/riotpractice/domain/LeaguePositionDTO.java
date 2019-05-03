@@ -2,10 +2,8 @@ package org.cnu.realcoding.riotpractice.domain;
 
 import lombok.Data;
 
-import java.util.LinkedHashMap;
-
 @Data
-public class LeaguePositionDTO extends LinkedHashMap {
+public class LeaguePositionDTO {
     private String tier;
     private String summonerName;
     private boolean hotStreak;
